@@ -166,3 +166,8 @@ header {
 .speakers .program-heading h1 {
     color: var(--primaryColor);
 }
+
+.speakingInt {
+    display: flex;
+    flex-direction: column;
+}
