@@ -5,6 +5,7 @@ body{
     font-family: Lato, sans-serif;
     padding: 0;
     margin: 0;
+    color: #333;;
 }
 
 /*Resets */
@@ -44,6 +45,30 @@ header {
 .intro {
     background-image: url(./images/mobile_intro_bg.png);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
     width: 100%;
+}
+
+.hero-section {
+    margin: 5%;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--concentColor);
+}
+
+.intro-text > *{
+    margin-bottom: 1px;
+}
+
+.intro-text h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 9px;
+}
+
+.intro-text h2 {
+    font-weight: 400;
 }
