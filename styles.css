@@ -164,42 +164,42 @@ header {
 
 /* speakers */
 .speakers .program-heading h1 {
-    color: var(--primaryColor);
+  color: var(--primaryColor);
 }
 
 .speakingInt {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .speakerInt {
-    display: flex;
-    gap: 12px;
-    margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .speak-container {
-    width: 85%;
-    margin: auto;
+  width: 85%;
+  margin: auto;
 }
 
 .speaker-name {
-    font-weight: 800;
-    font-size: 1rem;
+  font-weight: 800;
+  font-size: 1rem;
 }
 
 .speakerInt img {
-    width: 35vw;
+  width: 35vw;
 }
 
 .speaker-profession {
-    font-size: 60%;
-    color: var(--concentColor);
-    font-style: italic;
+  font-size: 60%;
+  color: var(--concentColor);
+  font-style: italic;
 }
 
 .speaker-description {
-    font-size: 70%;
+  font-size: 70%;
 }
 
 /* sponsors stated here */
@@ -243,4 +243,3 @@ header {
   font-size: 0.8rem;
   font-weight: bold;
 }
-
