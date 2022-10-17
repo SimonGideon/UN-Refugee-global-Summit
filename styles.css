@@ -110,8 +110,8 @@ header {
 
 .program {
   color: var(--txtColor);
-  display: flex;
-  gap: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
   margin: auto;
   height: auto;
   background: rgba(255, 255, 255, 0.1);
@@ -175,6 +175,7 @@ header {
 .speakerInt {
     display: flex;
     gap: 12px;
+    margin-top: 20px;
 }
 
 .speak-container {
@@ -219,9 +220,27 @@ header {
   width: 85%;
   margin: auto;
   display: grid;
-  grid-template-columns: 10fr 10fr 10fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  padding-bottom: 28.3px;
+}
+
+.footer {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding-top: 28px;
+  margin-bottom: 28px;
+}
+
+.footer img {
+  width: 80%;
+}
+
+.footer .txt {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
