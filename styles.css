@@ -8,15 +8,17 @@ body {
   color: #333;
 }
 
-/*Resets */
+/* Resets */
+
 :root {
   --primaryColor: #272a31;
   --secondaryColor: #d3d3d3;
   --concentColor: #ec5242;
-  --txtColor: #ffffff;
+  --txtColor: #fff;
 }
 
 /* Mobile starts here */
+
 /* mobile-nav */
 .sub-nav,
 .nav-menu {
@@ -59,6 +61,7 @@ header {
   display: flex;
   flex-direction: column;
   color: var(--concentColor);
+  padding-top: 50px;
 }
 
 .intro-text > * {
@@ -73,10 +76,6 @@ header {
 
 .intro-text h2 {
   font-weight: 400;
-}
-
-.intro-text {
-    padding-top: 50px;
 }
 
 .hero-paragraph {
@@ -113,7 +112,6 @@ header {
   color: var(--txtColor);
   display: flex;
   gap: 18px;
-  width: 100%;
   margin: auto;
   height: auto;
   background: rgba(255, 255, 255, 0.1);
@@ -140,7 +138,7 @@ header {
 }
 
 .program-heading h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .program-heading hr {
@@ -150,16 +148,16 @@ header {
 }
 
 .join-us {
-    text-align: center;
-    padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
 
 .join-us button {
-    background-color: var(--concentColor);
-    height: 60px;
-    width: 300px;
-    border: none;
-    color: var(--txtColor);
-    font-weight: 500;
-    font-size: 1rem;
+  background-color: var(--concentColor);
+  height: 60px;
+  width: 300px;
+  border: none;
+  color: var(--txtColor);
+  font-weight: 500;
+  font-size: 1rem;
 }
