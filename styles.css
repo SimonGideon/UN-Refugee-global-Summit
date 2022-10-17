@@ -200,3 +200,28 @@ header {
 .speaker-description {
     font-size: 70%;
 }
+
+/* sponsors stated here */
+.sponsor img {
+  filter: grayscale(100%);
+}
+
+.partners {
+  background-color: var(--primaryColor);
+  width: 100%;
+}
+
+.partnership img {
+  width: 100%;
+}
+
+.partnership {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 10fr 10fr 10fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+}
+
