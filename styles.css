@@ -49,7 +49,7 @@ header {
 .intro {
   background-image: url(./images/mobile_intro_bg.png);
   background-repeat: no-repeat;
-  height: 90vh;
+  height: auto;
   width: auto;
 }
 
@@ -170,4 +170,33 @@ header {
 .speakingInt {
     display: flex;
     flex-direction: column;
+}
+
+.speakerInt {
+    display: flex;
+    gap: 12px;
+}
+
+.speak-container {
+    width: 85%;
+    margin: auto;
+}
+
+.speaker-name {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.speakerInt img {
+    width: 35vw;
+}
+
+.speaker-profession {
+    font-size: 60%;
+    color: var(--concentColor);
+    font-style: italic;
+}
+
+.speaker-description {
+    font-size: 70%;
 }
