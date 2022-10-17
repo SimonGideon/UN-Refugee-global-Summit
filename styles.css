@@ -100,35 +100,47 @@ header {
 
 /* main-program section */
 .main-program {
-    background-image: url(./images/pattern_bg.png);
+  background-image: url(./images/pattern_bg.png);
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
 }
 
 .program {
-    color: var(--txtColor);
-    display: flex;
-    gap: 20px;
-    width: 100%;
-    margin: auto;
-    height: auto;
-    background: rgba(255, 255, 255, 0.1);
-    width: 90%;
-    align-items: center;
-    margin-top: 8px;
+  color: var(--txtColor);
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  width: 85%;
+  align-items: center;
+  margin-top: 8px;
+  padding: 0.8rem;
 }
 
 .program p {
-    color: var(--concentColor);
-    font-size: 14px;
-    font-weight: bold;
+  color: var(--concentColor);
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .description {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .program-heading {
-    text-align: center;
-    color: var(--txtColor);
+  text-align: center;
+  color: var(--txtColor);
+  padding: 5vh 0;
+}
+
+.program-heading h1 {
+    font-size: 24px;
+}
+
+.program-heading hr {
+  width: 20%;
+  border: 1px solid var(--concentColor);
+  margin-top: -10px;
 }
