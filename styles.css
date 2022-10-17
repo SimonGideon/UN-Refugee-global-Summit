@@ -1,98 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@1,100;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@1,100;1,400&display=swap");
 
-body{
-    box-sizing: border-box;
-    font-family: Lato, sans-serif;
-    padding: 0;
-    margin: 0;
-    color: #333;;
+body {
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #333;
 }
 
 /*Resets */
 :root {
-    --primaryColor: #272a31;
-    --secondaryColor: #d3d3d3;
-    --concentColor: #ec5242;
+  --primaryColor: #272a31;
+  --secondaryColor: #d3d3d3;
+  --concentColor: #ec5242;
+  --txtColor: #ffffff;
 }
 
 /* Mobile starts here */
 /* mobile-nav */
 .sub-nav,
 .nav-menu {
-    display: none;
+  display: none;
 }
 
 .mob-menu {
-    display: flex;
-    align-items: center;
-    margin: 2%;
+  display: flex;
+  align-items: center;
+  margin: 2%;
 }
 
 .mob-menu img {
-    margin: auto;
+  margin: auto;
 }
 
 header {
-    width: 100%;
-    background-color: white;
-    top: 0;
+  width: 100%;
+  background-color: var(--txtColor);
+  top: 0;
 }
 
 .fa-bars {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* intro section */
 .intro {
-    background-image: url(./images/mobile_intro_bg.png);
-    background-repeat: no-repeat;
-    height: auto;
-    width: 100%;
+  background-image: url(./images/mobile_intro_bg.png);
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
 }
 
 .hero-section {
-    margin: 5%;
+  margin: 5%;
 }
 
 .intro-text {
-    display: flex;
-    flex-direction: column;
-    color: var(--concentColor);
+  display: flex;
+  flex-direction: column;
+  color: var(--concentColor);
 }
 
-.intro-text > *{
-    margin-bottom: 1px;
+.intro-text > * {
+  margin-bottom: 1px;
 }
 
 .intro-text h1 {
-    font-size: 2rem;
-    font-weight: 900;
-    margin-top: 9px;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 9px;
 }
 
 .intro-text h2 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .hero-paragraph {
-    border: 3px solid white;
-    margin: 5% 0.97%;
-    font-size: 1rem;
+  border: 3px solid var(--txtColor);
+  margin: 5% 0.97%;
+  font-size: 1rem;
 }
 
 .hero-paragraph p {
-    margin: 3%;
+  margin: 3%;
 }
 
 /* our location */
 .our-location {
-    text-align: center;
-    width: 100%;
-    font-size: 1rem;
-    margin: 0;
-    padding-top: 4vh;
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+  margin: 0;
+  padding-top: 4vh;
 }
 
 .date {
+  font-weight: 900;
+}
+
+/* main-program section */
+.main-program {
+    background-image: url(./images/pattern_bg.png);
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+}
+
+.program {
+    color: var(--txtColor);
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    width: 90%;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.program p {
+    color: var(--concentColor);
+    font-size: 14px;
     font-weight: bold;
+}
+
+.description {
+    font-size: 0.75rem;
+}
+
+.program-heading {
+    text-align: center;
+    color: var(--txtColor);
 }
