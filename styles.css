@@ -35,6 +35,7 @@ body{
 header {
     width: 100%;
     background-color: white;
+    position: sticky;
 }
 
 .fa-bars {
@@ -45,7 +46,7 @@ header {
 .intro {
     background-image: url(./images/mobile_intro_bg.png);
     background-repeat: no-repeat;
-    height: auto;
+    height: 90vh;
     width: 100%;
 }
 
@@ -71,4 +72,27 @@ header {
 
 .intro-text h2 {
     font-weight: 400;
+}
+
+.hero-paragraph {
+    border: 3px solid white;
+    margin: 5% 0.97%;
+    font-size: 1rem;
+}
+
+.hero-paragraph p {
+    margin: 3%;
+}
+
+/* our location */
+.our-location {
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 4vh;
+}
+
+.date {
+    font-weight: bold;
 }
