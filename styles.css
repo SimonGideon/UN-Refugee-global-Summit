@@ -35,7 +35,7 @@ body{
 header {
     width: 100%;
     background-color: white;
-    position: sticky;
+    top: 0;
 }
 
 .fa-bars {
@@ -46,7 +46,7 @@ header {
 .intro {
     background-image: url(./images/mobile_intro_bg.png);
     background-repeat: no-repeat;
-    height: 90vh;
+    height: auto;
     width: 100%;
 }
 
