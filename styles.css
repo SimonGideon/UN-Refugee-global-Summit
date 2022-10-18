@@ -410,23 +410,27 @@ header {
     margin-bottom: 50px;
   }
 
+  .speakerInt {
+    gap: 5%;
+  }
+
   .speakerInt img {
-    width: 100%;
+    width: 110%;
   }
 
   .speaker-name {
     font-size: 22px;
-    margin: 0;
+    margin: 3px;
   }
 
   .speaker-profession {
     font-size: 13px;
-    margin: 2px;
+    margin: 3px;
   }
 
   .speaker-description {
     font-size: 14px;
-    margin: 0;
+    margin: 3px;
   }
 
   /* sponsors */
