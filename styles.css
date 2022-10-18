@@ -213,8 +213,6 @@ header {
 .partners {
   background-color: var(--primaryColor);
   width: 100%;
-  padding-top: 40px;
-  padding-bottom: 70px;
 }
 
 .partnership img {
@@ -257,16 +255,18 @@ header {
 .about-paragraph {
   font-size: 1rem;
   text-align: center;
-  margin: 20px 0px; ;
+  margin: 20px 0px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .summary-header {
   color: var(--concentColor);
 }
 
-.summary-header hr, hr {
+.summary-header hr,
+hr {
   border: 1px solid var(--concentColor);
   width: 4rem;
 }
@@ -291,7 +291,6 @@ header {
 .un-logo img {
   width: 100%;
 }
-
 
 .un-logo {
   display: flex;
@@ -323,7 +322,7 @@ header {
 .gallery {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
 
 #p {
@@ -334,12 +333,14 @@ header {
 
 .gallery img {
   width: 80%;
+  background: rgba(243, 3, 3, 0.3);
 }
 
 .pics {
   display: flex;
   flex-direction: column;
- text-align: center;
+  text-align: center;
+  margin: 20px 0px;
 }
 
 .ptn-abt {
