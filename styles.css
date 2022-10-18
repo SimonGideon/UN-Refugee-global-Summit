@@ -108,6 +108,7 @@ header {
   background-image: url(./images/pattern_bg.png);
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
+  margin: auto;
 }
 
 .program {
@@ -144,7 +145,7 @@ header {
 }
 
 .program-heading hr {
-  width: 20%;
+  width: 4rem;
   border: 1px solid var(--concentColor);
   margin-top: -10px;
 }
@@ -330,14 +331,14 @@ header {
     font-weight: 300;
   }
 
+  .intro-text {
+    padding-top: 0;
+  }
+
   .intro-text h1, h2 {
     width: 60%;
     text-align: left;
     font-size: 400%;
-  }
-
-  .intro-text {
-    padding-top: 0;
   }
 
   .hero-paragraph {
@@ -358,5 +359,72 @@ header {
 
   .date {
     font-size: 170%;
+  }
+
+  .intro {
+    padding-bottom: 35px;
+  }
+
+  /* main program starts here */
+  .program-heading {
+    padding-top: 79px;
+    font-size: 30px;
+  }
+
+  .all-program {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin: auto;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-content: center;
+    height: 90%;
+  }
+
+  .program p {
+    font-size: 1.3rem;
+  }
+
+  .program .description {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  /* join-us section */
+  .join-us button {
+    margin: 50px;
+  }
+
+  /* speaker section */
+  .Intro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .speakerInt img {
+    width: 100%;
+  }
+
+  .speaker-name {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .speaker-profession {
+    font-size: 13px;
+    margin: 2px;
+  }
+
+  .speaker-description {
+    font-size: 14px;
+    margin: 0;
   }
 }
