@@ -266,7 +266,7 @@ header {
   color: var(--concentColor);
 }
 
-.summary-header hr {
+.summary-header hr, hr {
   border: 1px solid var(--concentColor);
   width: 4rem;
 }
@@ -310,6 +310,18 @@ header {
 
 .sp-2 {
   font-weight: 300;
+}
+
+/* our acitivities */
+.un-activities {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--concentColor);
+}
+
+.gallery img {
+  width: 50%;
 }
 
 /* Desktop version */
