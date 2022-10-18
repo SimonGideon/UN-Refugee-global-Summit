@@ -320,8 +320,30 @@ header {
   color: var(--concentColor);
 }
 
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+#p {
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+}
+
 .gallery img {
-  width: 50%;
+  width: 80%;
+}
+
+.pics {
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+}
+
+.ptn-abt {
+  position: static;
 }
 
 /* Desktop version */
