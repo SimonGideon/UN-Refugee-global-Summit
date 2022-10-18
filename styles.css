@@ -433,4 +433,12 @@ header {
   .partnership {
     display: flex;
   }
+
+  /* footer */
+  .footer {
+    justify-content: center;
+  }
+  .footer img {
+    width: 50%;
+  }
 }
