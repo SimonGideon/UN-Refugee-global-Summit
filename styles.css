@@ -213,6 +213,8 @@ header {
 .partners {
   background-color: var(--primaryColor);
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
 
 .partnership img {
@@ -367,7 +369,6 @@ header {
 
   /* main program starts here */
   .program-heading {
-    padding-top: 79px;
     font-size: 30px;
   }
 
@@ -405,7 +406,7 @@ header {
   .Intro {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
+    column-gap: 70px;
     margin-bottom: 50px;
   }
 
@@ -426,5 +427,10 @@ header {
   .speaker-description {
     font-size: 14px;
     margin: 0;
+  }
+
+  /* sponsors */
+  .partnership {
+    display: flex;
   }
 }
