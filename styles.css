@@ -288,6 +288,30 @@ header {
   font-size: 1rem;
 }
 
+.un-logo img {
+  width: 100%;
+}
+
+
+.un-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem;
+  gap: 0.5rem;
+  color: var(--concentColor);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.rest {
+  background-color: var(--txtColor);
+}
+
+.sp-2 {
+  font-weight: 300;
+}
+
 /* Desktop version */
 @media (min-width: 768px) {
   /* nav-section */
