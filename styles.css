@@ -285,6 +285,17 @@ header {
     display: flex;
     list-style: none;
   }
+
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s ease;
+  }
+
+  .nav-item a:hover {
+    border-bottom: 1px solid var(--concentColor) ;
+  }
+
   .main-nav {
     display: flex;
     align-items: center;
@@ -298,6 +309,12 @@ header {
     gap: 20px;
     font-size: 1rem;
     font-weight: 600;
+    padding: 12px;
+  }
+
+  .nav-item .active {
+    color: var(--concentColor);
+    border-bottom: 1px solid var(--concentColor);
   }
 
   header {
@@ -310,5 +327,5 @@ header {
     margin-top: 0;
     height: auto;
   }
-
+  
 }
