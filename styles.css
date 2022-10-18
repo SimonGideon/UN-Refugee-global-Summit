@@ -285,6 +285,10 @@ header {
   .nav-item {
     display: flex;
     list-style: none;
+    gap: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px;
   }
 
   .nav-item a {
@@ -305,28 +309,27 @@ header {
     justify-content: space-between;
   }
 
-  .nav-item {
-    display: flex;
-    gap: 20px;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 12px;
-  }
-
   .nav-item .active {
     color: var(--concentColor);
     border-bottom: 1px solid var(--concentColor);
   }
 
   header {
-    box-shadow: rgb(0 0 0 / 30%) 0px 2px 8px 0px;
+    box-shadow: rgb(0 0 0 / 30%) 1px 2px 8px 1px;
   }
 
   /* introsection starts here */
   .intro {
     background-image: url(./images/main_big.png);
-    margin-top: 0;
+    margin-top: 1px;
     height: auto;
+  }
+
+  .intro-text h1,
+  h2 {
+    width: 60%;
+    text-align: left;
+    font-size: 400%;
   }
 
   .intro-text h2 {
@@ -334,13 +337,8 @@ header {
   }
 
   .intro-text {
-    padding-top: 0;
-  }
-
-  .intro-text h1, h2 {
-    width: 60%;
-    text-align: left;
-    font-size: 400%;
+    padding-top: 1px;
+    padding-bottom: 35px;
   }
 
   .hero-paragraph {
@@ -361,10 +359,6 @@ header {
 
   .date {
     font-size: 170%;
-  }
-
-  .intro {
-    padding-bottom: 35px;
   }
 
   /* main program starts here */
@@ -438,10 +432,16 @@ header {
     display: flex;
   }
 
+  .partners h1 {
+    font-size: 2vw;
+  }
+
   /* footer */
   .footer {
     justify-content: center;
+    align-items: center;
   }
+
   .footer img {
     width: 50%;
   }
