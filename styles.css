@@ -45,6 +45,8 @@ body {
   display: block;
   position: fixed;
   padding: 15px;
+  transition: 60s;
+  z-index: 1;
 }
 
 .nav i {
@@ -177,6 +179,7 @@ header {
 .program-heading {
   text-align: center;
   color: var(--txtColor);
+  padding-top: 5rem;
 }
 
 .program-heading h1 {
@@ -257,7 +260,8 @@ hr {
 .partners {
   background-color: var(--primaryColor);
   width: 100%;
-  padding: 5vh 0.1px;
+  padding-top: 5px;
+  padding-bottom: 10vh;
 }
 
 .partnership img {
@@ -437,6 +441,10 @@ hr {
 @media (min-width: 768px) {
   /* nav-section */
   .mob-menu span {
+    display: none;
+  }
+
+  #close {
     display: none;
   }
 
