@@ -29,17 +29,18 @@
       </span>
       <div class="main-nav">
         <div class="mob-menu">
-          <span><i class="fa-solid fa-bars fa-2x"></i></span>
+          <span id="hamburger" ><i class="fa-solid fa-bars fa-2x"></i></span>
           <a href="#"><img src="./images/logo.png" alt="logo" class="logo" /></a>
         </div>
-        <nav class="nav-menu">
+        <nav id="nav" class="nav-menu">
+          <span id="close"><i class="fa-solid fa-xmark"></i></span>
           <ul class="nav-item">
             <li><a class="active" href="./about.html">About</a></li>
-            <li><a href="#Program">Program</a></li>
-            <li><a href="#Join">Join</a></li>
-            <li><a href="#Sponsor">Sponsor</a></li>
-            <li><a href="#News">News</a></li>
-            <li><a href="#Speakers">Speakers</a></li>
+            <li id="navItem1"><a href="#Program">Program</a></li>
+            <li id="navItem2"><a href="#Join">Join</a></li>
+            <li id="navItem3"><a href="#Sponsor">Sponsor</a></li>
+            <li id="navItem4"><a href="#News">News</a></li>
+            <li id="navItem5"><a href="#Speakers">Speakers</a></li>
           </ul>
         </nav>
       </div>
@@ -108,7 +109,7 @@
           <h1>Featured Speakers</h1>
           <hr>
         </div>
-        <div class="speakingInt Intro">
+        <div id="speakingInt" class="speakingInt Intro">
           <div class="speakerInt speaker-1">
             <span><img src="./images/speaker_01.png" alt="Speaker Yochai Bankler"></span>
             <span>
@@ -182,5 +183,6 @@
       </div>
     </footer>
     <script src="./javascript/script.js"></script>
+    <script src="./javascript/dynamic-speaker.js"></script>
   </body>
 </html>
