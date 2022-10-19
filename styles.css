@@ -52,7 +52,6 @@ header {
   background-repeat: no-repeat;
   height: 100vh;
   width: auto;
-  position: relative;
 }
 
 .hero-section {
@@ -333,7 +332,41 @@ hr {
 
 .gallery img {
   width: 80%;
-  background: rgba(243, 3, 3, 0.3);
+}
+
+/* img overlay */
+.img-cont {
+  position: relative;
+}
+
+.overlay {
+  margin: auto;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ec3723a4;
+  overflow: hidden;
+  width: 80%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.img-cont:hover .overlay {
+  height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .pics {
