@@ -51,7 +51,7 @@ const speakerDiv = document.getElementById('speakingInt');
 function speaketInt(speech) {
   return `
     <div class="speakerInt">
-    <span><img src="${speech.speakerAvartar}" alt=""></span>
+    <span><img src="${speech.speakerAvartar}" alt="${speech.speakerName}"></span>
     <span>
         <p class="speaker-name">${speech.speakerName}</p>
         <p class="speaker-profession">${speech.speakerProfession}</p>
