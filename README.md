@@ -4,6 +4,13 @@
 
 > Creating my portfolio for all the projects worked and skills gathered.
 
+## Project Work Breakdown.
+|N0.|  Day    | Milestone             | Work done  |
+|---|-------  |-----------------------|------------|
+| 1.|  Day 1  |  Milestone 0 - project setup |Set up the repository and tools.|
+|   |         | Milestone 1 - content|Select the topic for your website(UN- Refugee Summit). |    
+| 2.|Day 2    |           |   |   |   |
+| 3.|Day 3    |           |   |   |   |
 
 ## 🗼Built With
 
