@@ -271,6 +271,7 @@ hr {
   text-align: center;
   font-size: 0.8rem;
   margin: 20px;
+  margin-top: 5%;
 }
 
 .reach-us-out {
@@ -347,7 +348,7 @@ hr {
   overflow: hidden;
   width: 80%;
   height: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .img-cont:hover .overlay {
@@ -355,15 +356,15 @@ hr {
 }
 
 .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .pics {
@@ -377,7 +378,7 @@ hr {
   position: static;
 }
 
-.sub-cont p{
+.sub-cont p {
   width: 70%;
   margin: auto;
   font-weight: 600;
@@ -390,6 +391,13 @@ hr {
 .sub-cont {
   margin: auto;
   text-align: center;
+}
+
+#mail {
+  background-color: var(--concentColor);
+  padding: 4px;
+  color: var(--txtColor);
+  border-radius: 10px;
 }
 
 /* Desktop version */
@@ -596,7 +604,32 @@ hr {
     font-size: 1.03em;
   }
 
-  .summary-header{
+  .summary-header {
     font-size: 1.4rem;
   }
+
+  .reach-us-out {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+   }
+
+   .un-activities, .un-logo {
+    font-size: 1.4rem;
+   }
+
+   .un-logo img {
+    width: 120%;
+   }
+
+   #p {
+    font-size: 1.2rem;
+    width: 70%;
+   }
 }
