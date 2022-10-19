@@ -55,6 +55,10 @@ body {
   float: right;
 }
 
+.mob-menu a {
+  margin: auto;
+}
+
 .nav .nav-item a {
   color: var(--txtColor);
   text-decoration: none;
@@ -71,10 +75,6 @@ body {
   align-items: center;
   margin: 2px;
   padding: 0 12px;
-}
-
-.mob-menu a {
-  margin: auto;
 }
 
 header {
