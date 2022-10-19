@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@1,100;1,400&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
   padding: 0;
+  top: 0;
   margin: 0;
   color: #333;
   background-image: url(./images/main_big.png);
@@ -21,9 +26,52 @@ body {
 /* Mobile starts here */
 
 /* mobile-nav */
-.sub-nav,
+.sub-nav {
+  display: none;
+}
+
+.nav-item {
+  list-style: none;
+}
+
 .nav-menu {
   display: none;
+}
+
+/* side menu starts here */
+.nav {
+  top: 0;
+  left: 0;
+  background-color: var(--primaryColor);
+  opacity: 0.95;
+  height: 100vh;
+  width: 75%;
+  display: block;
+  position: fixed;
+  padding: 15px;
+  transition: 60s;
+  z-index: 1;
+}
+
+.nav i {
+  color: var(--txtColor);
+  font-size: 2rem;
+  float: right;
+}
+
+.mob-menu a {
+  margin: auto;
+}
+
+.nav .nav-item a {
+  color: var(--txtColor);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-item li {
+  padding: 10px;
 }
 
 .mob-menu {
@@ -33,14 +81,12 @@ body {
   padding: 0 12px;
 }
 
-.mob-menu a {
-  margin: auto;
-}
-
 header {
   width: 100%;
   background-color: var(--txtColor);
   padding-left: 0.1px;
+  position: relative;
+  top: 0;
 }
 
 .fa-bars {
@@ -137,6 +183,7 @@ header {
 .program-heading {
   text-align: center;
   color: var(--txtColor);
+  padding-top: 5rem;
 }
 
 .program-heading h1 {
@@ -179,6 +226,10 @@ hr {
   flex-direction: column;
 }
 
+.speakerInt p {
+  margin: 5px;
+}
+
 .speakerInt {
   display: flex;
   gap: 12px;
@@ -217,7 +268,8 @@ hr {
 .partners {
   background-color: var(--primaryColor);
   width: 100%;
-  padding: 5vh 0.1px;
+  padding-top: 5px;
+  padding-bottom: 10vh;
 }
 
 .partnership img {
@@ -391,12 +443,17 @@ hr {
   padding: 4px;
   color: var(--txtColor);
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* Desktop version */
 @media (min-width: 768px) {
   /* nav-section */
   .mob-menu span {
+    display: none;
+  }
+
+  #close {
     display: none;
   }
 
@@ -429,7 +486,6 @@ hr {
 
   .nav-item {
     display: flex;
-    list-style: none;
     gap: 25px;
     font-size: 1rem;
     font-weight: 600;
