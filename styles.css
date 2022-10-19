@@ -144,6 +144,11 @@ header {
   font-size: 24px;
 }
 
+hr {
+  border: 1px solid var(--concentColor);
+  width: 4rem;
+}
+
 .program-heading hr {
   border: 1px solid var(--concentColor);
   margin-top: -10px;
@@ -257,11 +262,6 @@ header {
 
 .summary-header {
   color: var(--concentColor);
-}
-
-hr {
-  border: 1px solid var(--concentColor);
-  width: 4rem;
 }
 
 .reach-us-out {
@@ -507,7 +507,6 @@ hr {
   }
 
   /* main program starts here */
-  
   .program-heading {
     font-size: 30px;
   }
