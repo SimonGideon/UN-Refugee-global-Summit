@@ -39,7 +39,7 @@ body {
 header {
   width: 100%;
   background-color: var(--txtColor);
-  top: 0;
+  padding: 5px;
 }
 
 .fa-bars {
