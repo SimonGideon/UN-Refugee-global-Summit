@@ -222,6 +222,10 @@ hr {
   flex-direction: column;
 }
 
+.speakerInt p {
+  margin: 5px;
+}
+
 .speakerInt {
   display: flex;
   gap: 12px;
