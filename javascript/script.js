@@ -15,6 +15,7 @@ function showSideBar(){
 function closeSideBar(){
     classNav.classList.remove('nav');
 }
+
 openNav.addEventListener('click', showSideBar);
 closeNav.addEventListener('click', closeSideBar);
 navItem1.addEventListener('click', closeSideBar);
