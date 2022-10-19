@@ -40,7 +40,7 @@ body {
 header {
   width: 100%;
   background-color: var(--txtColor);
-  padding-left: 0px;
+  padding-left: 0.1px;
 }
 
 .fa-bars {
@@ -251,33 +251,23 @@ header {
 .about-paragraph {
   font-size: 1rem;
   text-align: center;
-  margin: 20px 0px;
+  margin: 20px 0.1px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
-    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 1px 6px 24px 1px, rgba(0, 0, 0, 0.08) 0.1px 0.1px 0.1px 1px;
 }
 
 .summary-header {
   color: var(--concentColor);
 }
 
-.summary-header hr,
-hr {
-  border: 1px solid var(--concentColor);
-  width: 4rem;
-}
-
-.reach-us-out {
-  text-align: center;
-  font-size: 0.8rem;
-  margin: 20px;
-  margin-top: 5%;
-}
-
 .reach-us-out {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 20px;
+  margin-top: 5%;
 }
 
 .reach-us-out i {
@@ -346,7 +336,6 @@ hr {
   right: 0;
   background-color: #ec3723a4;
   overflow: hidden;
-  width: 80%;
   height: 0;
   transition: 0.5s ease;
 }
@@ -371,7 +360,7 @@ hr {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 20px 0px;
+  margin: 20px 0.1px;
 }
 
 .ptn-abt {
@@ -514,6 +503,12 @@ hr {
   }
 
   /* main program starts here */
+  hr,
+  .summary-header hr {
+    border: 1px solid var(--concentColor);
+    width: 4rem;
+  }
+
   .program-heading {
     font-size: 30px;
   }
@@ -618,18 +613,19 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
-   }
+  }
 
-   .un-activities, .un-logo {
+  .un-activities,
+  .un-logo {
     font-size: 1.4rem;
-   }
+  }
 
-   .un-logo img {
+  .un-logo img {
     width: 120%;
-   }
+  }
 
-   #p {
+  #p {
     font-size: 1.2rem;
     width: 70%;
-   }
+  }
 }
