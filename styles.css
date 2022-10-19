@@ -29,17 +29,18 @@ body {
 .mob-menu {
   display: flex;
   align-items: center;
-  margin: 2%;
+  margin: 2px;
+  padding: 0 12px;
 }
 
-.mob-menu img {
+.mob-menu a {
   margin: auto;
 }
 
 header {
   width: 100%;
   background-color: var(--txtColor);
-  padding: 5px;
+  padding-left: 0px;
 }
 
 .fa-bars {
@@ -247,10 +248,6 @@ header {
 }
 
 /* About -page mobile-version */
-.about-head {
-  padding: 1px;
-}
-
 .about-paragraph {
   font-size: 1rem;
   text-align: center;
@@ -397,6 +394,7 @@ hr {
     display: flex;
     list-style: none;
     justify-content: flex-end;
+    margin: 3px;
   }
 
   .sub-nav-item a {
@@ -416,7 +414,7 @@ hr {
   .nav-item {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 25px;
     font-size: 1rem;
     font-weight: 600;
     padding: 12px;
