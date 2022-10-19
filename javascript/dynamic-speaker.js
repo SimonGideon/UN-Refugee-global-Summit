@@ -37,3 +37,7 @@ speakers = [
         speakerDescription: 'Young studied common-based peer production and published his seminal book. The Wealth of Networks in 2006'
     }
 ];
+
+document.getElementsByClassName("speakingInt").innerHTML = `
+<div class="speakerInt"></div>
+`
