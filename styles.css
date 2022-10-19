@@ -141,7 +141,7 @@ header {
 
 .program-heading h1 {
   font-size: 24px;
-  margin-top: 0.1px;
+  padding-top: 10%;
 }
 
 hr {
