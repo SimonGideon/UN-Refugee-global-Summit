@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@1,100;1,400&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
@@ -370,6 +374,8 @@ hr {
   width: 80%;
 }
 
+
+
 .gallery img {
   width: 80%;
 }
@@ -439,6 +445,7 @@ hr {
   padding: 4px;
   color: var(--txtColor);
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* Desktop version */
