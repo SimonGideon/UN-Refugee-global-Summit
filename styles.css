@@ -377,6 +377,21 @@ hr {
   position: static;
 }
 
+.sub-cont p{
+  width: 70%;
+  margin: auto;
+  font-weight: 600;
+}
+
+#ke {
+  font-size: 120%;
+}
+
+.sub-cont {
+  margin: auto;
+  text-align: center;
+}
+
 /* Desktop version */
 @media (min-width: 768px) {
   /* nav-section */
@@ -573,5 +588,15 @@ hr {
 
   .footer img {
     width: 50%;
+  }
+
+  /* Desktop About page starts here */
+  .about-paragraph {
+    padding: 5%;
+    font-size: 1.03em;
+  }
+
+  .summary-header{
+    font-size: 1.4rem;
   }
 }
