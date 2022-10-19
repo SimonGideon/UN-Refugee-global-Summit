@@ -21,9 +21,48 @@ body {
 /* Mobile starts here */
 
 /* mobile-nav */
-.sub-nav,
-.nav-menu {
+.sub-nav {
   display: none;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+/* side menu starts here */
+nav {
+  top: 0;
+  left: 0;
+  background-color: var(--primaryColor);
+  opacity: 0.95;
+  height: 100%;
+  width: 75%;
+}
+
+/* =============================Watch this==================== */
+.nav-menu {
+  display: block;
+  position: fixed;
+  padding: 15px;
+}
+/* =========================watch this======================== */
+.nav-menu i {
+  color: var(--txtColor);
+  font-size: 2rem;
+  float: right;
+}
+
+.nav-item a {
+  color: var(--txtColor);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-item li {
+  padding: 10px;
+  border-bottom: 1px solid var(--txtColor);
+  width: 80%;
 }
 
 .mob-menu {
@@ -41,6 +80,8 @@ header {
   width: 100%;
   background-color: var(--txtColor);
   padding-left: 0.1px;
+  position: relative;
+  top: 0;
 }
 
 .fa-bars {
@@ -429,7 +470,6 @@ hr {
 
   .nav-item {
     display: flex;
-    list-style: none;
     gap: 25px;
     font-size: 1rem;
     font-weight: 600;
