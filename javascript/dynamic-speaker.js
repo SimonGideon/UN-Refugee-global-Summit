@@ -38,6 +38,26 @@ speakers = [
     }
 ];
 
-document.getElementsByClassName("speakingInt").innerHTML = `
-<div class="speakerInt"></div>
+
+const speakerDiv = document.getElementById("speakingInt");
+function speaketInt(speech){
+    return `
+    <div class="speakerInt">
+    <span><img src="${speech.speakerAvartar}" alt=""></span>
+    <span>
+        <p class="speaker-name">${speech.speakerName}</p>
+        <p class="speaker-profession">${speech.speakerProfession}</p>
+        <p class="speaker-description">${speech.speakerDescription}</p>
+    </span>
+    </div>
+    `
+}
+speakerDiv.innerHTML = `
+
+${speakers.map(speaketInt).join('')}
+
 `
+
+
+
+
