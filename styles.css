@@ -302,11 +302,18 @@ hr {
 
 .footer img {
   width: 80%;
+  filter: invert(100%);
 }
 
 .footer .txt {
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+footer {
+  background-color: var(--primaryColor);
+  color: var(--txtColor);
+  padding: 1.2rem;
 }
 
 /* About -page mobile-version */
