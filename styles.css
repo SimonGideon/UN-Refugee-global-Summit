@@ -132,6 +132,16 @@ header {
   font-size: 1rem;
 }
 
+.description {
+  font-size: 0.75rem;
+}
+
+.program .program-ico,
+p,
+.description:hover {
+  border: none !important;
+}
+
 .hero-paragraph p {
   margin: 3%;
 }
@@ -174,10 +184,6 @@ header {
   color: var(--concentColor);
   font-size: 14px;
   font-weight: bold;
-}
-
-.description {
-  font-size: 0.75rem;
 }
 
 .program-heading {
@@ -309,7 +315,9 @@ hr {
   text-align: center;
   margin: 20px 0.1px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.05) 1px 6px 24px 1px, rgba(0, 0, 0, 0.08) 0.1px 0.1px 0.1px 1px;
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 1px 6px 24px 1px,
+    rgba(0, 0, 0, 0.08) 0.1px 0.1px 0.1px 1px;
 }
 
 .summary-header {
@@ -581,6 +589,10 @@ hr {
     margin: 20px;
     align-content: center;
     height: 90%;
+  }
+
+  .all-program :hover {
+    border: 3px solid var(--txtColor);
   }
 
   .program p {
