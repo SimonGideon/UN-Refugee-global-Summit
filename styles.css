@@ -402,6 +402,7 @@ hr {
   overflow: hidden;
   height: 0;
   transition: 0.5s ease;
+  height: 100%;
 }
 
 .img-cont:hover .overlay {
@@ -418,6 +419,10 @@ hr {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.text p {
+  font-weight: 800;
 }
 
 .pics {
