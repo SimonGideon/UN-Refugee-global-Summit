@@ -314,7 +314,7 @@ hr {
   width: 80%;
 }
 
-#footnote .footer img {
+#footnote img, .footer img {
   width: 80%;
   filter: invert(100%);
 }
@@ -481,6 +481,11 @@ footer {
   padding: 12px;
   margin: 12px 0;
   text-align: center;
+}
+
+#footnote {
+  background-color: var(--primaryColor);
+  color: var(--txtColor);
 }
 
 /* special */
@@ -703,7 +708,11 @@ footer {
     align-items: center;
   }
 
-  .footer img {
+  #footnote img {
+    width: 50%;
+  }
+
+ .footer img {
     width: 50%;
     filter: var(--primaryColor) (100%);
   }
