@@ -396,6 +396,7 @@ footer {
 /* img overlay */
 .img-cont {
   position: relative;
+  margin-bottom: 12px;
 }
 
 .overlay {
@@ -407,7 +408,6 @@ footer {
   right: 0;
   background-color: #ec3723a4;
   overflow: hidden;
-  height: 0;
   transition: 0.5s ease;
   height: 100%;
 }
@@ -430,6 +430,10 @@ footer {
 
 .text p {
   font-weight: 800;
+}
+
+.text span {
+  font-weight: 300;
 }
 
 .pics {
