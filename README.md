@@ -5,8 +5,8 @@
 > UN-Refugee Summit 2022 Website for attendance.
 
 ## Project Work Breakdown.
-|No.|  Day    | Milestone             | Work done                               |
-|---|-------  |-----------------------|------------                             |
+|No.|  Day    | Milestone                       | Work done                    |
+|---|-------  |---------------------------------|------------                  |
 | 1.|  Day 1  |  Milestone 0 - project setup |Set up the repository and tools.|
 |   |         | Milestone 1 - content|Select the topic for your website(UN- Refugee Summit). |
 |   |         |Milestone 2 - mobile first | Create the 2 pages for mobile.(Deploy)|
