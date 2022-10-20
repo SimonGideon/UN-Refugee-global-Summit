@@ -306,7 +306,7 @@ hr {
   margin-bottom: 28px;
 }
 
-.footer img {
+#footnote .footer img {
   width: 80%;
   filter: invert(100%);
 }
@@ -705,6 +705,13 @@ footer {
 
   .footer img {
     width: 50%;
+    filter: var(--primaryColor)(100%);
+  }
+
+  footer {
+    background-color: transparent;
+    color: var(--primaryColor);
+    font-size: 3rem;
   }
 
   /* Desktop About page starts here */
