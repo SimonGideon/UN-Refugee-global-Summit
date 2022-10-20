@@ -306,6 +306,14 @@ hr {
   margin-bottom: 28px;
 }
 
+.un-logo img {
+  width: 100%;
+}
+
+.gallery img {
+  width: 80%;
+}
+
 #footnote .footer img {
   width: 80%;
   filter: invert(100%);
@@ -352,10 +360,6 @@ footer {
   font-size: 1rem;
 }
 
-.un-logo img {
-  width: 100%;
-}
-
 .un-logo {
   display: flex;
   flex-direction: column;
@@ -392,10 +396,6 @@ footer {
 #p {
   text-align: center;
   padding: 20px;
-  width: 80%;
-}
-
-.gallery img {
   width: 80%;
 }
 
@@ -705,7 +705,7 @@ footer {
 
   .footer img {
     width: 50%;
-    filter: var(--primaryColor)(100%);
+    filter: var(--primaryColor) (100%);
   }
 
   footer {
