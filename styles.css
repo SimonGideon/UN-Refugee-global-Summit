@@ -328,7 +328,8 @@ footer {
   text-align: center;
   margin: 20px 0.1px;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.05) 1px 6px 24px 1px,
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 1px 6px 24px 1px,
     rgba(0, 0, 0, 0.08) 0.1px 0.1px 0.1px 1px;
 }
 
@@ -478,9 +479,10 @@ footer {
 #see-more {
   background-color: #ec5242;
   padding: 12px;
-  margin: 12px 0px;
+  margin: 12px 0;
   text-align: center;
 }
+
 /* special */
 @media (max-width: 768px) {
   .speak-container .speakingInt .speakerInt:nth-child(1),
@@ -640,11 +642,9 @@ footer {
   }
 
   /* join-us section */
-  .join-us button {
-    margin: 50px;
-  }
 
   .join-us button {
+    margin: 50px;
     background-color: transparent;
     text-decoration: underline;
   }
