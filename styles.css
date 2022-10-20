@@ -314,7 +314,8 @@ hr {
   width: 80%;
 }
 
-#footnote img, .footer img {
+.footer img,
+#footnote img {
   width: 80%;
   filter: invert(100%);
 }
@@ -708,13 +709,17 @@ footer {
     align-items: center;
   }
 
-  #footnote img {
-    width: 50%;
-  }
-
- .footer img {
+  .footer img {
     width: 50%;
     filter: var(--primaryColor) (100%);
+  }
+
+  .un-logo img {
+    width: 120%;
+  }
+
+  #footnote img {
+    width: 50%;
   }
 
   footer {
@@ -748,10 +753,6 @@ footer {
   .un-activities,
   .un-logo {
     font-size: 1.4rem;
-  }
-
-  .un-logo img {
-    width: 120%;
   }
 
   #p {
