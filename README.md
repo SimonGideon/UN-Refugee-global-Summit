@@ -25,7 +25,7 @@
 ## 🛫 Launch
  ***[🌐 Click Here to Launch 🧑‍✈️](https://simongideon.github.io/Capstone-project/)***
 ### Live Preview
-
+[Live Demonstration](https://www.loom.com/share/facb12601ffe44489c38b7bcc69ac675)
 
 ## Getting Started
 
