@@ -213,13 +213,14 @@ hr {
 }
 
 .join-us button {
-  background-color: var(--concentColor);
+  background-color: transparent;
   height: 60px;
   width: 300px;
   border: none;
   color: var(--txtColor);
   font-weight: 500;
   font-size: 1rem;
+  text-decoration: underline;
 }
 
 /* speakers */
