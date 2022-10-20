@@ -213,15 +213,19 @@ hr {
 }
 
 .join-us button {
-  background-color: transparent;
+  background-color: var(--concentColor);
   height: 60px;
   width: 300px;
   border: none;
   color: var(--txtColor);
   font-weight: 500;
   font-size: 1rem;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
+}
+
+.join-us button::before {
+  content: "JOIN CC GLOBAL SUMMIT";
 }
 
 /* speakers */
@@ -324,8 +328,7 @@ footer {
   text-align: center;
   margin: 20px 0.1px;
   padding: 20px;
-  box-shadow:
-    rgba(0, 0, 0, 0.05) 1px 6px 24px 1px,
+  box-shadow: rgba(0, 0, 0, 0.05) 1px 6px 24px 1px,
     rgba(0, 0, 0, 0.08) 0.1px 0.1px 0.1px 1px;
 }
 
@@ -470,6 +473,20 @@ footer {
   color: var(--txtColor);
   border-radius: 10px;
   cursor: pointer;
+}
+
+#see-more {
+  background-color: #ec5242;
+  padding: 12px;
+  margin: 12px 0px;
+  text-align: center;
+}
+/* special */
+@media (max-width: 768px) {
+  .speak-container .speakingInt .speakerInt:nth-child(1),
+  .speak-container .speakingInt .speakerInt:nth-child(2) {
+    display: flex;
+  }
 }
 
 /* Desktop version */
@@ -625,6 +642,19 @@ footer {
   /* join-us section */
   .join-us button {
     margin: 50px;
+  }
+
+  .join-us button {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  #Join button::before {
+    content: "";
+  }
+
+  .join-us button::after {
+    content: "SEE THE WHOLE PROGRAM";
   }
 
   /* speaker section */
