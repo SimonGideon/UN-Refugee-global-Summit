@@ -23,3 +23,18 @@ navItem2.addEventListener('click', closeSideBar);
 navItem3.addEventListener('click', closeSideBar);
 navItem4.addEventListener('click', closeSideBar);
 navItem5.addEventListener('click', closeSideBar);
+
+// loadmore btn
+let seeMoreBtn = document.getElementById('see-more');
+let currentNoSpeaker = 2;
+seeMoreBtn.onclick = () => {
+  let speakerContainer = [...document.querySelectorAll('.speak-container .speakingInt .speakerInt')];
+  for(let i = currentNoSpeaker; i < currentNoSpeaker + 2; i++){
+    speakerContainer[i].style.display = 'flex';
+  }
+  currentNoSpeaker += 2;
+
+  if(currentNoSpeaker >= speakerContainer.length){
+    seeMoreBtn.style.display = 'none'; 
+  }
+}

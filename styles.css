@@ -478,7 +478,8 @@ footer {
 }
 
 #see-more {
-  background-color: #ec5242;
+  background-color: transparent;
+  border: 1px solid var(--secondaryColor);
   padding: 12px;
   margin: 12px 0;
   text-align: center;
