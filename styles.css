@@ -489,10 +489,13 @@ footer {
   color: var(--txtColor);
 }
 
+.speak-container .speakingInt .speakerInt {
+  display: none;
+}
+
 /* special */
 @media (max-width: 768px) {
-  .speak-container .speakingInt .speakerInt:nth-child(1),
-  .speak-container .speakingInt .speakerInt:nth-child(2) {
+  .speak-container .speakingInt .speakerInt:nth-child(-n+2){
     display: flex;
   }
 }
