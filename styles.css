@@ -98,7 +98,7 @@ header {
   background-image: url(./images/mobile_intro_bg.png);
   background-repeat: no-repeat;
   height: 100vh;
-  width: auto;
+  width: 100%;
 }
 
 .hero-section {
