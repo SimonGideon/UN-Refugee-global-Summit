@@ -478,10 +478,19 @@ footer {
 }
 
 #see-more {
-  background-color: #ec5242;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  background-color: transparent;
+  border: 1px solid var(--secondaryColor);
   padding: 12px;
   margin: 12px 0;
   text-align: center;
+}
+
+#see-more i {
+  color: var(--concentColor);
+  margin-top: 2px;
 }
 
 #footnote {
@@ -489,10 +498,17 @@ footer {
   color: var(--txtColor);
 }
 
+.speak-container .speakingInt .speakerInt {
+  display: none;
+}
+
+section {
+  width: 100% !important;
+}
+
 /* special */
 @media (max-width: 768px) {
-  .speak-container .speakingInt .speakerInt:nth-child(1),
-  .speak-container .speakingInt .speakerInt:nth-child(2) {
+  .speak-container .speakingInt .speakerInt:nth-child(-n+2) {
     display: flex;
   }
 }
