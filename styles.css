@@ -478,11 +478,19 @@ footer {
 }
 
 #see-more {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
   background-color: transparent;
   border: 1px solid var(--secondaryColor);
   padding: 12px;
   margin: 12px 0;
   text-align: center;
+}
+
+#see-more i {
+  color: var(--concentColor);
+  margin-top: 2px;
 }
 
 #footnote {
