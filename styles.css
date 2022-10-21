@@ -502,9 +502,13 @@ footer {
   display: none;
 }
 
+section {
+  width: 100% !important;
+}
+
 /* special */
 @media (max-width: 768px) {
-  .speak-container .speakingInt .speakerInt:nth-child(-n+2){
+  .speak-container .speakingInt .speakerInt:nth-child(-n+2) {
     display: flex;
   }
 }
