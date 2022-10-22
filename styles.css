@@ -507,11 +507,9 @@ section {
 }
 
 /* special */
-@media (max-width: 768px) {
   .speak-container .speakingInt .speakerInt:nth-child(-n+2) {
     display: flex;
   }
-}
 
 /* Desktop version */
 @media (min-width: 768px) {
