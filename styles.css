@@ -518,6 +518,14 @@ section {
     display: none;
   }
 
+  .speak-container .speakingInt .speakerInt {
+    display: flex;
+  }
+
+  #see-more {
+    display: none;
+  }
+
   #close {
     display: none;
   }
