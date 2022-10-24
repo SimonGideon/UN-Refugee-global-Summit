@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 const classNav = document.getElementById('nav');
 const openNav = document.getElementById('hamburger');
 const closeNav = document.getElementById('close');
