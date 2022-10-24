@@ -507,16 +507,26 @@ section {
 }
 
 /* special */
-@media (max-width: 768px) {
-  .speak-container .speakingInt .speakerInt:nth-child(-n+2) {
-    display: flex;
-  }
+.speak-container .speakingInt .speakerInt:nth-child(-n+2) {
+  display: flex;
 }
 
 /* Desktop version */
 @media (min-width: 768px) {
   /* nav-section */
   .mob-menu span {
+    display: none;
+  }
+
+  .speakerInt {
+    gap: 5%;
+  }
+
+  .speak-container .speakingInt .speakerInt {
+    display: flex;
+  }
+
+  #see-more {
     display: none;
   }
 
@@ -685,10 +695,6 @@ section {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 70px;
     margin-bottom: 50px;
-  }
-
-  .speakerInt {
-    gap: 5%;
   }
 
   .speakerInt img {
