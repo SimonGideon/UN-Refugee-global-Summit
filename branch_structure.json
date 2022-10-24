@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "About-mobile-version",
+    "Desktop-version",
+    "Mobile-first",
+    "Mobile-nav-menu",
+    "capstone-milestone",
+    "main",
+    "origin",
+    "see-more-btn"
+  ],
+  "parent": {
+    "About-mobile-version": "main",
+    "Desktop-version": "main",
+    "Mobile-first": "main",
+    "Mobile-nav-menu": "main",
+    "capstone-milestone": "main",
+    "main": null,
+    "origin": "main",
+    "see-more-btn": "main"
+  },
+  "order": [
+    "main",
+    "About-mobile-version",
+    "Desktop-version",
+    "Mobile-first",
+    "Mobile-nav-menu",
+    "capstone-milestone",
+    "origin",
+    "see-more-btn"
+  ]
+}
