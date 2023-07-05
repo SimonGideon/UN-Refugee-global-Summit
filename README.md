@@ -1,6 +1,5 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone-project
+# UN-Refugee-global-Summit
 
 > UN-Refugee Summit 2022 Website for attendance.
 
