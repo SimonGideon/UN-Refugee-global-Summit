@@ -21,16 +21,6 @@
 *maintain the directory pattern of the folders*
 - Open the `index.html` file in your browser.
 
-*🎉Congratulations you're done*✨
-
-## Authors
-
-👤 **Simon Gideon**
-
-- GitHub: [@SimonGideon](https://github.com/SimonGideon)
-- Twitter: [@Simo_Giddy](https://twitter.com/Simo_Giddy)
-- LinkedIn: [mnayi-gideon](https://linkedin.com/in/mnayi-gideon)
-
 ## 👏 Acknowledgement 
 1. [Cindy Shin in Behance.](https://www.behance.net/adagio07)
 
