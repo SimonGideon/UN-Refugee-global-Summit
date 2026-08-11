@@ -1,2 +1,7 @@
 # .gitignore
 node_modules/
+temp_auto_push.bat
+
+
+
+branch_structure.json
